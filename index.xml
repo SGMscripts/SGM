@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="SGM" commit="0eda83c9b8c5d93745d784b8709b8e77433ae248">
+  <category name="Chirpity">
+    <reapack name="Align Highest Transient (Smart Priority- Hovered Item &gt; Selection sruthin v2.lua" type="script" desc="Align Highest Transient (Smart Priority: Hovered Item &gt; Selection) to Edit Cursor + Crossfade + Auto-Select Hovered Item">
+      <version name="2.5" author="Reaper DAW Ultimate Assistant" time="2025-12-27T09:31:23Z">
+        <source main="main">https://github.com/SGMscripts/SGMS/raw/0eda83c9b8c5d93745d784b8709b8e77433ae248/Chirpity/Align%20Highest%20Transient%20(Smart%20Priority-%20Hovered%20Item%20%3E%20Selection%20sruthin%20v2.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Chirpity analysis results to reaper regions SGM .lua" type="script">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Imports annotation TXT files as regions for each selected item. Each selected item looks for a matching TXT file (by item name) in the same directory and inserts regions offset to the item start.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0.0" author="Sruthin" time="2025-12-27T08:31:31Z">
+        <changelog><![CDATA[v1.0.0
+- Initial release
+- Per-item annotation import
+- Automatic label cleanup]]></changelog>
+        <source main="main">https://github.com/SGMscripts/SGMS/raw/e7a4763a1c419c6610b2f7b724e0ab51fc447ed7/Chirpity/Chirpity%20analysis%20results%20to%20reaper%20regions%20SGM%20.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Chirpity Audacity  to reaper  with insertion offset SGM for Single item .lua" type="script">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Imports annotation TXT files and creates REAPER regions starting at the current edit cursor position. Commonly used for Chirpity, Audacity, BirdNET, or similar annotation exports.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0.0" author="Sruthin" time="2025-12-27T08:31:31Z">
+        <changelog><![CDATA[v1.0.0
+- Initial release
+- Cursor-based region offset
+- Automatic label cleanup]]></changelog>
+        <source main="main">https://github.com/SGMscripts/SGMS/raw/e7a4763a1c419c6610b2f7b724e0ab51fc447ed7/Chirpity/Chirpity%20Audacity%20%20to%20reaper%20%20with%20insertion%20offset%20SGM%20for%20Single%20item%20.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Copy Unique Marker Names in Time Selection to Clipboard SGM .lua" type="script">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Copies unique marker and region names that fall inside the current time selection to the clipboard, sorted by how often they appear (most frequent first). Output is comma-separated.\par}
+}
+]]></description>
+      </metadata>
+      <version name="2.0.0" author="Sruthin" time="2025-12-27T08:31:31Z">
+        <changelog><![CDATA[v1.0.0
+- Initial release
+- Frequency-based sorting of marker and region names]]></changelog>
+        <source main="main">https://github.com/SGMscripts/SGMS/raw/e7a4763a1c419c6610b2f7b724e0ab51fc447ed7/Chirpity/Copy%20Unique%20Marker%20Names%20in%20Time%20Selection%20to%20Clipboard%20SGM%20.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Item">
+    <reapack name="Align Highest Transient (Smart Priority- Hovered Item &gt; Selection sruthin v2.lua" type="script" desc="Align Highest Transient (Smart Priority: Hovered Item &gt; Selection) to Edit Cursor + Crossfade + Auto-Select Hovered Item">
+      <version name="2.5" author="Reaper DAW Ultimate Assistant" time="2025-12-27T09:21:16Z">
+        <source main="main">https://github.com/SGMscripts/SGMS/raw/40d5e1032f3e19c417d0be29c4e938acd3d691f2/Item/Align%20Highest%20Transient%20(Smart%20Priority-%20Hovered%20Item%20%3E%20Selection%20sruthin%20v2.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Ucsify">
+    <reapack name="Add meta Marker and rename smart SGM.lua" type="script" desc="Rename takes from clipboard Filename and append META markers">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Rename Takes from Clipboard + META Markers\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script reads a UCS-style {\f1 Filename="..."} string from the clipboard and renames selected REAPER takes accordingly.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Behaviour\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Keeps the plain filename if no duplicates exist\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Automatically numbers existing and selected takes (e.g. Base 01_suffix, Base 02_suffix)\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Ignores currently selected takes when scanning existing ones\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Appends META project markers after item end\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Requirements\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab SWS Extension (CF_GetClipboard)\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Notes\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Designed for Soundminer / UCS workflows\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Safe to run multiple times\sa180\par}
+}
+]]></description>
+      </metadata>
+      <version name="2.1.0" author="SGM" time="2025-12-27T08:29:48Z">
+        <changelog><![CDATA[v1.1.0
+- Ignore selected takes when scanning for existing names
+- Stable numbering logic
+- META markers placed safely after item end]]></changelog>
+        <source main="main">https://github.com/SGMscripts/SGMS/raw/69b48669e67e6d87c01ae2250524c33da203759e/Ucsify/Add%20meta%20Marker%20and%20rename%20smart%20SGM.lua</source>
+      </version>
+    </reapack>
+    <reapack name="inject metaddata fileds SGM.lua" type="script" desc="UCS Inject Render Metadata (Standalone)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Pre-populates Project Render Metadata with all UCS / Extended / ASWG keys (same mapping as acendan_UCS Renaming Tool) without renaming anything. Run before opening the Render dialog so fields aren\u8217't empty.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 By default writes $marker(Field)[;] substitutions (dynamic). Optional: set direct_values = true to write current extstate literal values instead.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.1.0" author="You" time="2025-12-27T08:29:48Z">
+        <source main="main">https://github.com/SGMscripts/SGMS/raw/69b48669e67e6d87c01ae2250524c33da203759e/Ucsify/inject%20metaddata%20fileds%20SGM.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <metadata>
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Sruthin\par}
+}
+]]></description>
+  </metadata>
+</index>
