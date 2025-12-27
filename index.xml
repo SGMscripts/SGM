@@ -118,7 +118,7 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 . Open {\b Extensions \u8594 ? ReaPack \u8594 ? Browse packages} . Find and install scripts from {\b SoundsGoodman} . Access installed scripts from the {\b Action List}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 . Open {\b Extensions \u8594 ? ReaPack \u8594 ? Browse packages} . Find and install scripts from {\b SoundsGoodman} . Access installed scripts from the {\b Action List} https://raw.githubusercontent.com/SGMscripts/SGM/refs/heads/master/index.xml\par}
 }
 ]]></description>
   </metadata>
