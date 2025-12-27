@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="SAM" commit="e76c18f170c57e5903b35f44d9ff3de45e5dee7a">
+<index version="1" name="SGM" commit="e76c18f170c57e5903b35f44d9ff3de45e5dee7a">
   <category name="Chirpity">
     <reapack name="Chirpity analysis results to reaper regions SGM .lua" type="script">
       <metadata>
