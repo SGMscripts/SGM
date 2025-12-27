@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="SGM" commit="e76c18f170c57e5903b35f44d9ff3de45e5dee7a">
+<index version="1" name="SGM" commit="cdc43190c0db4a77d4fd617536dbff4fe94200d4">
   <category name="Chirpity">
     <reapack name="Chirpity analysis results to reaper regions SGM .lua" type="script">
       <metadata>
@@ -11,12 +11,12 @@
 }
 ]]></description>
       </metadata>
-      <version name="1.0.0" author="Sruthin" time="2025-12-27T08:31:31Z">
+      <version name="1.0.0" author="Sruthin" time="2025-12-27T23:36:09Z">
         <changelog><![CDATA[v1.0.0
 - Initial release
 - Per-item annotation import
 - Automatic label cleanup]]></changelog>
-        <source main="main">https://github.com/SGMscripts/SGMS/raw/e7a4763a1c419c6610b2f7b724e0ab51fc447ed7/Chirpity/Chirpity%20analysis%20results%20to%20reaper%20regions%20SGM%20.lua</source>
+        <source main="main">https://github.com/SGMscripts/SGM/raw/11ca73c3e4f6e71bd6881b6cb8bcbd5eddbf0d26/Chirpity/Chirpity%20analysis%20results%20to%20reaper%20regions%20SGM%20.lua</source>
       </version>
     </reapack>
     <reapack name="Chirpity Audacity  to reaper  with insertion offset SGM for Single item .lua" type="script">
@@ -29,12 +29,12 @@
 }
 ]]></description>
       </metadata>
-      <version name="1.0.0" author="Sruthin" time="2025-12-27T08:31:31Z">
+      <version name="1.0.0" author="Sruthin" time="2025-12-27T23:36:09Z">
         <changelog><![CDATA[v1.0.0
 - Initial release
 - Cursor-based region offset
 - Automatic label cleanup]]></changelog>
-        <source main="main">https://github.com/SGMscripts/SGMS/raw/e7a4763a1c419c6610b2f7b724e0ab51fc447ed7/Chirpity/Chirpity%20Audacity%20%20to%20reaper%20%20with%20insertion%20offset%20SGM%20for%20Single%20item%20.lua</source>
+        <source main="main">https://github.com/SGMscripts/SGM/raw/11ca73c3e4f6e71bd6881b6cb8bcbd5eddbf0d26/Chirpity/Chirpity%20Audacity%20%20to%20reaper%20%20with%20insertion%20offset%20SGM%20for%20Single%20item%20.lua</source>
       </version>
     </reapack>
     <reapack name="Copy Unique Marker Names in Time Selection to Clipboard SGM .lua" type="script">
@@ -47,18 +47,18 @@
 }
 ]]></description>
       </metadata>
-      <version name="2.0.0" author="Sruthin" time="2025-12-27T08:31:31Z">
+      <version name="2.0.0" author="Sruthin" time="2025-12-27T23:36:09Z">
         <changelog><![CDATA[v1.0.0
 - Initial release
 - Frequency-based sorting of marker and region names]]></changelog>
-        <source main="main">https://github.com/SGMscripts/SGMS/raw/e7a4763a1c419c6610b2f7b724e0ab51fc447ed7/Chirpity/Copy%20Unique%20Marker%20Names%20in%20Time%20Selection%20to%20Clipboard%20SGM%20.lua</source>
+        <source main="main">https://github.com/SGMscripts/SGM/raw/11ca73c3e4f6e71bd6881b6cb8bcbd5eddbf0d26/Chirpity/Copy%20Unique%20Marker%20Names%20in%20Time%20Selection%20to%20Clipboard%20SGM%20.lua</source>
       </version>
     </reapack>
   </category>
   <category name="Item">
-    <reapack name="Align Highest Transient (Smart Priority- Hovered Item &gt; Selection sruthin v2.lua" type="script" desc="Align Highest Transient (Smart Priority: Hovered Item &gt; Selection) to Edit Cursor + Crossfade + Auto-Select Hovered Item">
-      <version name="2.5" author="Reaper DAW Ultimate Assistant" time="2025-12-27T09:21:16Z">
-        <source main="main">https://github.com/SGMscripts/SGMS/raw/40d5e1032f3e19c417d0be29c4e938acd3d691f2/Item/Align%20Highest%20Transient%20(Smart%20Priority-%20Hovered%20Item%20%3E%20Selection%20sruthin%20v2.lua</source>
+    <reapack name="Align Highest Transient (Smart Priority- Hovered Item &gt; Selection SGM v2.lua" type="script" desc="Align Highest Transient (Smart Priority: Hovered Item &gt; Selection) to Edit Cursor + Crossfade + Auto-Select Hovered Item">
+      <version name="2.5" author="SGM" time="2025-12-27T23:36:30Z">
+        <source main="main">https://github.com/SGMscripts/SGM/raw/cdc43190c0db4a77d4fd617536dbff4fe94200d4/Item/Align%20Highest%20Transient%20(Smart%20Priority-%20Hovered%20Item%20%3E%20Selection%20SGM%20v2.lua</source>
       </version>
     </reapack>
   </category>
@@ -84,12 +84,12 @@
 }
 ]]></description>
       </metadata>
-      <version name="2.1.0" author="SGM" time="2025-12-27T08:29:48Z">
+      <version name="2.1.0" author="SGM" time="2025-12-27T23:35:52Z">
         <changelog><![CDATA[v1.1.0
 - Ignore selected takes when scanning for existing names
 - Stable numbering logic
 - META markers placed safely after item end]]></changelog>
-        <source main="main">https://github.com/SGMscripts/SGMS/raw/69b48669e67e6d87c01ae2250524c33da203759e/Ucsify/Add%20meta%20Marker%20and%20rename%20smart%20SGM.lua</source>
+        <source main="main">https://github.com/SGMscripts/SGM/raw/a7d743ce13ed7e23608dec47d695268a14227333/Ucsify/Add%20meta%20Marker%20and%20rename%20smart%20SGM.lua</source>
       </version>
     </reapack>
     <reapack name="inject metaddata fileds SGM.lua" type="script" desc="UCS Inject Render Metadata (Standalone)">
@@ -103,8 +103,8 @@
 }
 ]]></description>
       </metadata>
-      <version name="1.1.0" author="You" time="2025-12-27T08:29:48Z">
-        <source main="main">https://github.com/SGMscripts/SGMS/raw/69b48669e67e6d87c01ae2250524c33da203759e/Ucsify/inject%20metaddata%20fileds%20SGM.lua</source>
+      <version name="1.1.0" author="You" time="2025-12-27T23:35:52Z">
+        <source main="main">https://github.com/SGMscripts/SGM/raw/a7d743ce13ed7e23608dec47d695268a14227333/Ucsify/inject%20metaddata%20fileds%20SGM.lua</source>
       </version>
     </reapack>
   </category>
