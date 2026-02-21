@@ -1,0 +1,16 @@
+Copy all files/folders from this package into your REAPER Scripts folder.
+
+REAPER Scripts folder:
+- macOS: ~/Library/Application Support/REAPER/Scripts
+- Windows: %APPDATA%\REAPER\Scripts
+
+Required final layout inside REAPER Scripts:
+- SGM Perch and Birdnet Detect .lua
+- sfx_perch_auto_name_helper.py
+- sfx_ebird_local_list_updater.py
+- SFX_BirdDetect_Pack/
+
+Then run:
+1) SGM Perch and Birdnet Detect .lua
+2) Click Run Setup (macOS)
+3) Analyze Selected
